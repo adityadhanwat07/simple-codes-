@@ -1,0 +1,8 @@
+
+#include <stdio.h>
+int main(){
+    int n=12345,c=0;
+    while(n>0){ c++; n/=10; }
+    printf("Digits=%d",c);
+    return 0;
+}

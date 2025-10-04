@@ -1,0 +1,8 @@
+
+#include <stdio.h>
+#include <string.h>
+int main(){
+    char s[]="C Language";
+    printf("Length=%d",(int)strlen(s));
+    return 0;
+}
